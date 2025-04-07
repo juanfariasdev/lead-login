@@ -4,7 +4,7 @@ services:
   nextjs:
     build:
       context: .
-      dockerfile: Dockerfile.nextjs
+      dockerfile: Dockerfile
       args:
         GIT_REPO: "https://github.com/juanfariasdev/lead-login.git"  # substitua pela URL do seu repositório
     ports:
